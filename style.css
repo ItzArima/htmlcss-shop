@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.img-1-r-1{
+    background-image: url(./img/1.webp);
+}
+
+.img-2-r-1{
+    background-image: url(./img/2.webp);
+}
+
+.img-3-r-1{
+    background-image: url(./img/3.webp);
+}
+
+.img-2-r-1{
+    background-image: url(./img/4.webp);
+}
+
+.img-2-r-2{
+    background-image: url(./img/5.webp);
+}
+
+.img-2-r-3{
+    background-image: url(./img/6.webp);
+}
