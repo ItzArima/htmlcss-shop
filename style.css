@@ -4,26 +4,176 @@
     padding: 0;
 }
 
+clearfixx::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    margin: 15px 200px;
+    
+}
+
 .img-1-r-1{
     background-image: url(./img/1.webp);
+    width: 33%;
+    float: left;
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-size: contain;
+    transition: all 1s;
 }
 
 .img-2-r-1{
     background-image: url(./img/2.webp);
+    width: 33%;
+    float: left;
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-size: contain;
+    transition: all 1s;
 }
 
 .img-3-r-1{
     background-image: url(./img/3.webp);
+    width: 34%;
+    float: left;
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-size: contain;
+    transition: all 1s;
 }
 
-.img-2-r-1{
+.img-1-r-2{
     background-image: url(./img/4.webp);
+    width: 33%;
+    float: left;
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-size: contain;
+    transition: all 1s;
 }
 
 .img-2-r-2{
     background-image: url(./img/5.webp);
+    width: 33%;
+    float: left;
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-size: contain;
+    transition: all 1s;
 }
 
-.img-2-r-3{
+.img-3-r-2{
     background-image: url(./img/6.webp);
+    width: 34%;
+    float: left;
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-size: contain;
+    transition: all 1s;
 }
+
+.raw-1{
+    width: 100%;
+    height:485px;
+    float: left;
+}
+
+.raw-2{
+    width: 100%;
+    height: 485px;
+    float: left;
+    margin-top: 5px;
+}
+
+.info{
+    width: 33%;
+    text-align: left;
+    height: 50px;
+    float:left;
+}
+
+.raw-1-info{
+    width: 100%;
+    padding-bottom: 3px;
+}
+
+.raw-2-info{
+    width: 100%;
+}
+
+#sbarrato{
+    text-decoration: line-through;
+}
+
+#r{
+    color:red;
+}
+
+.heart{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    top: 45px;
+    right: -286px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.sconto{
+    background-color: red;
+    width: 50px;
+    text-align: center;
+    padding: 3px 0;
+    float: left;
+    color: white;
+}
+
+.eco{
+    background-color: green;
+    width: 106px;
+    text-align: center;
+    padding: 3px 0;
+    float: left;
+    margin: 0 3px;
+    color: white;
+}
+
+.ecoraw{
+    position: relative;
+    bottom: -390px;
+}
+
+.ecoraw-2{
+    position: relative;
+    bottom: -390px;
+}
+
+.img-1-r-1:hover{
+    background-image: url(./img/1b.webp);
+}
+
+.img-2-r-1:hover{
+    background-image: url(./img/2b.webp);
+}
+
+.img-3-r-1:hover{
+    background-image: url(./img/3b.webp);
+}
+
+.img-1-r-2:hover{
+    background-image: url(./img/4b.webp);
+}
+
+.img-2-r-2:hover{
+    background-image: url(./img/5b.webp);
+}   
+
+.img-3-r-2:hover{
+    background-image: url(./img/6b.webp);
+}
+
